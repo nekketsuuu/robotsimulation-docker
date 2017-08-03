@@ -1,4 +1,5 @@
 #!/bin/bash
+set -eu
 
 VAR=${@:-"bash"}
 #echo "VAR: $VAR"

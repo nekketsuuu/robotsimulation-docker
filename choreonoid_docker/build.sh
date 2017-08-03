@@ -1,6 +1,6 @@
 #!/bin/bash
+set -eu
 
-#DOCKER=docker
-DOCKER=nvidia-docker
+DOCKER=${DOCKER:-nvidia-docker}
 
 ${DOCKER} build --tag=yoheikakiuchi/choreonoidsim .
